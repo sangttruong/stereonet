@@ -1,4 +1,4 @@
-An Attention Graph Neural Network for Stereo-active Molecules
+# An Attention Graph Neural Network for Stereo-active Molecules
 <!-- Description of project -->
 
 <!-- Project Organization
