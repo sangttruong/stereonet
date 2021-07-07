@@ -88,7 +88,7 @@ bash optimal_resid_diag.sh
 ```
 
 ## Acknowledgement
-This project was started in 12/2020 by [Sang Truong](https://sangttruong.github.io/) and [Quang Tran](https://quangntran.github.io/) under the mentorship of Professor [Brian Howard](https://github.com/bhoward). We thank 
+This project was started in 12/2020 by [Sang Truong](https://sangttruong.github.io/) and [Quang Tran](https://quangntran.github.io/) under the mentorship of Professor [Brian Howard](https://github.com/bhoward). We thank [Lucky Pattanaik](https://github.com/PattanaikL) for his support in understanding the theory of permutation-equivariant aggregation function. We thank Professor [Jeffrey Hansen](https://www.depauw.edu/news-media/experts/details/jeffrey-a-hansen/), Professor [Bridget Gourley](https://sites.google.com/a/depauw.edu/bridget-gourley/), Professor [Suman Balasubramanian](https://www.depauw.edu/academics/college-of-liberal-arts/mathematics/faculty-staff/detail/1785802452885/) for their support on the chemical and mathematical foundation of the project, as well as allowing Sang Truong to complete this project as a part of his interdisciplinary major in Computational Chemistry at DePauw University.
 
 ## Citation
 ```
