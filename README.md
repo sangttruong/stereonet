@@ -83,10 +83,16 @@ cd stereonet/run
 bash optimal_resid_diag.sh
 ```
 
-## Authors
-- [Sang T. Truong](https://sangttruong.github.io/), Stanford University
-- [Quang N. Tran](https://quangntran.github.io/), Minerva Schools at KGI
-
 ## Acknowledgement
+This project was started in 12/2020 by [Sang Truong](https://sangttruong.github.io/) and [Quang Tran](https://quangntran.github.io/) under the mentorship of Professor [Brian Howard](https://github.com/bhoward). We thank 
 
-
+## Citation
+```
+@inproceedings{
+    stereonet,
+    title={An Attention Graph Neural Network for Stereo-active Molecules},
+    author={Sang Truong and Quang Tran},
+    booktitle={CMD-IT/ACM Richard Tapia Celebration of Diversity in Computing Conference},
+    year={2021}
+}
+```
