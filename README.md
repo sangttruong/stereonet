@@ -1,7 +1,7 @@
 # An Attention Graph Neural Network for Stereo-active Molecules
 
 ## Introduction
-<!-- Description of project -->
+Molecules can show stereochemistry: two molecules with the same atomic connectivity may exhibit different bioactivity due to different spatial arrangements. We propose a graph neural network architecture that utilizes a chiral-sensitive aggregation function and self-attention mechanism to improve the performance of molecular properties prediction by exploiting chiral information. Unlike many black-box deep learning models, the internals of our network are interpretable by visualizing the learned weights of the attention layers, providing better support for drug discovery.
 
 <!-- Project Organization
 ------------
