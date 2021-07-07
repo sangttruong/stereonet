@@ -65,6 +65,10 @@
 ## Usage
 <!-- How to use the project - Describe briefly -->
 
+<p align="center">
+<img width=50% src= "./reports/stereonet.png"/>
+</p>
+
 To run the optimal model, run the following command:
 ```{bash}
 cd stereonet/run
