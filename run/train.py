@@ -1,11 +1,19 @@
-import os, math, torch, kora.install.rdkit, pandas as pd
-from model.parsing import parse_train_args
-from data_model.data import construct_loader
-from util import Standardizer, create_logger, get_loss_func
-from model.main import GNN
+import pandas as pd
 import csv
 import numpy as np
-from model.training import *
+
+import os, sys, inspect, torch, csv, copy,  kora.install.rdkit
+currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
+parentdir = os.path.dirname(currentdir)
+sys.path.insert(0, parentdir)
+
+from stereonet.models.parsing import parse_train_args
+from stereonet.data.data import construct_loader
+from stereonet.util.util import Standardizer, get_loss_func
+from stereonet.models.main import GNN
+
+from stereonet.models.training import *
+
 
 args = parse_train_args()
 torch.manual_seed(args.seed)
