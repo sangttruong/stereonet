@@ -8,6 +8,7 @@ torch
 torchvision
 torchaudio
 torch_geometric
+torch_sparse
 statsmodels
 rdkit-pypi
 matplotlib
