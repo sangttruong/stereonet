@@ -8,7 +8,7 @@ torch
 torchvision
 torchaudio
 torch_geometric
-torch_sparse
+torch_sparse      -f https://pytorch-geometric.com/whl/torch-{TORCH}+{CUDA}.html
 statsmodels
 rdkit-pypi
 matplotlib
