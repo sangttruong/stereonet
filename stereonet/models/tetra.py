@@ -7,10 +7,9 @@ Aggregate functions in Pattanaik 2020
 from torch_geometric.nn import MessagePassing
 from torch_geometric.utils import degree
 
-import torch
+import torch, copy
 import torch.nn as nn
 import torch.nn.functional as F
-import copy
 
 
 class TetraPermuter(nn.Module):

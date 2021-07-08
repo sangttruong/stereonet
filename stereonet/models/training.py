@@ -1,13 +1,12 @@
 # Functions to call when training / testing 
 # chiral_gnn/model/training.py/
 
-import math
+import math, torch
 from tqdm import tqdm
 from typing import List, Union
 from argparse import Namespace
 import numpy as np
 
-import torch
 from torch.optim import Optimizer
 from torch.optim.lr_scheduler import _LRScheduler
 from sklearn.metrics import roc_auc_score

@@ -1,16 +1,18 @@
+import os, sys, inspect, torch, csv, copy
+currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
+parentdir = os.path.dirname(currentdir)
+sys.path.insert(0, parentdir)
+
 from torch_geometric.nn import MessagePassing
 from torch_geometric.utils import degree
 from torch_geometric.nn import global_add_pool, global_mean_pool, global_max_pool, GlobalAttention, Set2Set
 from torch_geometric.nn import GATConv
 
-import torch
 import torch.nn as nn
 import torch.nn.functional as F
-import copy
 
 from rdkit.Chem.Draw import SimilarityMaps
-import csv
-from model.tetra import *
+from models.tetra import *
 
 class GCNConv(MessagePassing):
     def __init__(self, args, custom_hidden_size=None):

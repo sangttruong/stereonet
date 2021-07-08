@@ -1,9 +1,9 @@
-import os, math, torch, kora.install.rdkit, pandas as pd
+import os, math, torch, kora.install.rdkit, csv
+import pandas as pd
 #from model.parsing import parse_train_args
 #from data_model.data import construct_loader
 #from util import Standardizer, create_logger, get_loss_func
 #from model.main import GNN
-import csv
 import numpy as np
 #from model.training import *
 
