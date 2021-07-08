@@ -9,7 +9,7 @@ torchvision
 torchaudio
 torch_geometric
 statsmodels
-rdkit
+rdkit-pypi
 matplotlib
 numpy
 pandas
