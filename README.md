@@ -63,7 +63,12 @@ Molecules can show stereochemistry: two molecules with the same atomic connectiv
 * torchaudio >= 0.7
 
 ## Installation
+PyTorch version:
 
+```{bash}
+pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio===0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
+```
+Install PyTorch Geometric:
 ```{bash}
 pip install -q torch-scatter -f https://pytorch-geometric.com/whl/torch-1.9.0+cu102.html
 pip install -q torch-sparse -f https://pytorch-geometric.com/whl/torch-1.9.0+cu102.html
@@ -80,20 +85,20 @@ pip install -q torch-geometric
 
 To run the optimal model, run the following command:
 ```{bash}
-cd stereonet/run
-bash optimal_exp.sh
+!git clone https://github.com/sangttruong/stereonet.git
+%cd stereonet
+!pip install -r requirements.txt
+bash run/optimal_exp.sh
 ```
 
 To test:
 ```{bash}
-cd stereonet/run
-bash optimal_test.sh
+bash run/optimal_test.sh
 ```
 
 To do residual analysis:
 ```{bash}
-cd stereonet/run
-bash optimal_resid_diag.sh
+bash run/optimal_resid_diag.sh
 ```
 
 ## Acknowledgement
