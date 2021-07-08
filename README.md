@@ -62,6 +62,15 @@ Molecules can show stereochemistry: two molecules with the same atomic connectiv
 * torchvision >= 0.8
 * torchaudio >= 0.7
 
+## Installation
+
+```{bash}
+pip install -q torch-scatter -f https://pytorch-geometric.com/whl/torch-1.9.0+cu102.html
+pip install -q torch-sparse -f https://pytorch-geometric.com/whl/torch-1.9.0+cu102.html
+pip install -q torch-cluster -f https://pytorch-geometric.com/whl/torch-1.9.0+cu102.html
+pip install -q torch-geometric
+```
+
 ## Usage
 <!-- How to use the project - Describe briefly -->
 
