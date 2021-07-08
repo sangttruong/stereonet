@@ -85,9 +85,9 @@ pip install -q torch-geometric
 
 To run the optimal model, run the following command:
 ```{bash}
-!git clone https://github.com/sangttruong/stereonet.git
-%cd stereonet
-!pip install -r requirements.txt
+git clone https://github.com/sangttruong/stereonet.git
+cd stereonet
+pip install -r requirements.txt
 bash run/optimal_exp.sh
 ```
 
